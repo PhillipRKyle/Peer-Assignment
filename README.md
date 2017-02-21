@@ -13,15 +13,15 @@ The purpose of the script is to perform the following instructions:
 
 Relative to the original dataset, the following operations have been performed: 
 
-#1. Variables in data sets for training- and test data were renamed using variableLabels ("features.txt"). Subject ("subject.txt") and activity ("activity_labels.xt") variables were assigned values "subject" and "activity"
+1. Variables in data sets for training- and test data were renamed using variableLabels ("features.txt"). Subject ("subject.txt") and activity ("activity_labels.xt") variables were assigned values "subject" and "activity"
 
-#2. Mean and standard deviation variables were extracted using a columnIndex. The column index was derived using grepl to find variables ending in "-mean()" and "-std"
+2. Mean and standard deviation variables were extracted using a columnIndex. The column index was derived using grepl to find variables ending in "-mean()" and "-std"
 
-#3. Values for activity labels were replaced with strings naming the activities in the Dataset, using a match and replace function. 
+3. Values for activity labels were replaced with strings naming the activities in the Dataset, using a match and replace function. 
 
-#4. The full data set was summarized by group, using as grouping variables "subject" and "activity".
+4. The full data set was summarized by group, using as grouping variables "subject" and "activity".
 
-#5. The resulting data was exported as a .txt file in the file "tidyData.txt"
+5. The resulting data was exported as a .txt file in the file "tidyData.txt"
 
 Please see codebook for description of variables. 
 
